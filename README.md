@@ -1,10 +1,10 @@
-CppGen.py
-=========
+CppGen
+======
 
-CppGen.py generates a custom .cpp and .h file pair from your own template.
+CppGen generates custom .cpp and .h file pairs from your own template.
 
-Usage
------
+CppGen.py - Python Usage
+------------------------
 
 Using it is easy:
 
@@ -35,12 +35,12 @@ them to your own liking! Just remember that they must have the names
 "template.cpp" and "template.h".
 
 
-Vim - Ready!
-------------
+CppGen.vim - Vim Usage
+----------------------
 
-CppGen.py is also ready as a vim plugin! Just do this:
+CppGen is also ready as a vim plugin! Just do this:
 
-    git clone https://github.com/mitchmindtree/CppGen.py.git ~/.vim/plugin
+    git clone https://github.com/mitchmindtree/CppGen.git ~/.vim/plugin
 
 Or move the CppGen folder into `~/.vim/plugin` (you might need to make the
 `~/.vim/plugin` directory first). Ready to go!
