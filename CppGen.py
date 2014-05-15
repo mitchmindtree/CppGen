@@ -5,6 +5,8 @@
 
 CppGen!
 
+by Mitchell Nordine
+
 Generate .cpp and .header with template contents from argument.
 
 Usage:
