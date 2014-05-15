@@ -1,7 +1,7 @@
 CppGen.py
 =========
 
-CppGen.py generates a custom .cpp and .h file pair from a template.
+CppGen.py generates a custom .cpp and .h file pair from your own template.
 
 Usage
 -----
