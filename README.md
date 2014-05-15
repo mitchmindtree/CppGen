@@ -10,9 +10,10 @@ Using it is easy:
 CppGen.py will make a copy of both your .cpp and .h templates and place
 them in the `<destination>` directory. Both the file names and every
 instance of `TEMPLATE` within the files will be replaced with `<name>`.
-Every instance of `DATE` will be replaced by the time and date. CppGen.py
-will do this for every name following the directory (each separated by a
-single whitespace).
+Every instance of `DATE` will be replaced by the time and date.
+
+CppGen.py will do this for every name following the directory (separate
+each by a single whitespace).
 
 You can also do this:
 
@@ -34,7 +35,7 @@ them to your own liking! Just remember that they must have the names
 Dependency
 ----------
 
-(Docopt)[http://docopt.org/] because it's so damn easy to make CLIs with it.
+[Docopt] (http://docopt.org/) because it's so damn easy to make CLIs with it.
 
 Just do this:
 
