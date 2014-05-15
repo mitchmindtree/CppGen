@@ -3,11 +3,11 @@
 
 '''
 
-CppGen!
+CppGen.py
 
 by Mitchell Nordine
 
-Generate .cpp and .header with template contents from argument.
+Generate .cpp and .header files from your own template.
 
 Usage:
     CPPTemplate.py
@@ -23,10 +23,9 @@ Options:
 '''
 
 
-import os, sys
+import os
 from shutil import copyfile
 from docopt import docopt
-from pprint import pprint
 from datetime import datetime
 
 
