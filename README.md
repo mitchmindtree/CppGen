@@ -42,16 +42,15 @@ CppGen.py is also ready as a vim plugin! Just do this:
 
     git clone https://github.com/mitchmindtree/CppGen.py.git ~/.vim/plugin
 
-Or drag the CppGen folder into `~/.vim/plugin` (you might need to make the
+Or move the CppGen folder into `~/.vim/plugin` (you might need to make the
 `~/.vim/plugin` directory first). Ready to go!
 
 Using CppGen.py as a vim plugin is even easier:
 
     :CppGen name1 name2 name3
 
-This will generate your .cpp and .h files with name1, name2 and name3 in the
-current working directory. You can generate as many files as will fit on the
-line this way.
+This is the same as calling `$ python CppGen.py <dir> name1 name2 name3`
+where "<dir>" is equal to the ":pwd" command in vim.
 
 
 Dependency
