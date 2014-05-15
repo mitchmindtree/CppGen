@@ -50,7 +50,7 @@ Using CppGen.py as a vim plugin is even easier:
     :CppGen name1 name2 name3
 
 This is the same as calling `$ python CppGen.py <dir> name1 name2 name3`
-where "<dir>" is equal to the ":pwd" command in vim.
+where `<dir>` is equal to the ":pwd" command in vim.
 
 
 Dependency
