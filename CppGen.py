@@ -31,12 +31,24 @@ from datetime import datetime
 
 def getHeaderTemplate():
     '''Location of template .h file to use.'''
-    return os.getcwd()+'/template.h'
+    path = os.getcwd()+'/template.h'
+    if not os.path.exists(path):
+        path = cleanPath('~/.vim/plugin/CppGen/template.h')
+        if not os.path.exists(path):
+            warning = 'Cannot find "template.h" at ~/.vim/plugin/CppGen/ or '+os.getcwd()+'!'
+            raise Exception(warning)
+    return path
 
 
 def getCPPTemplate():
     '''Location of template .cpp file to use.'''
-    return os.getcwd()+'/template.cpp'
+    path = os.getcwd()+'/template.cpp'
+    if not os.path.exists(path):
+        path = cleanPath('~/.vim/plugin/CppGen/template.cpp')
+        if not os.path.exists(path):
+            warning = 'Cannot find "template.cpp" at ~/.vim/plugin/CppGen/ or '+os.getcwd()+'/ !'
+            raise Exception(warning)
+    return path
 
 
 def editNewFile(newPath, name):
